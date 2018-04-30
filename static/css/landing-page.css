@@ -263,6 +263,7 @@ h6 {
     color: #9594a1;
 }
 
+
 #experience h1 {
     color: #ffffff;
 }
@@ -271,19 +272,34 @@ h6 {
     padding: 20px 0;
 }
 
+#experience ul {
+    margin-left: -30px;
+}
+
 #experience .nav-pills > li {
     float:none;
     display:inline-block;
     zoom:1;
     text-transform: uppercase;
+    background-color: #293c4c;
+    margin-right: -40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
 }
 
 #experience .nav-pills > li > a {
     color: #76828c;
+    margin-right: 20px;
+}
+
+#experience .nav-pills > li > .last-tab {
+    margin-right: 5px;
 }
 
 #experience .nav-pills > li > a:hover {
     border-radius: 30px;
+    background-color: #1e3142;
 }
 
 #experience .nav-pills > li.active > a{
@@ -296,6 +312,8 @@ h6 {
     background-color: #ffffff;
     color: #1e3142;
     border-radius: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #experience .nav-pills {
