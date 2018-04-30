@@ -57,6 +57,13 @@ h6 {
 .navbar-brand {
     color: rgba(39, 174, 96, 1);
     font-size: 22px;
+    vertical-align: bottom;
+}
+
+.navbar-brand img {
+    height: 50px;
+    margin-top: -10px;
+    vertical-align: top;
 }
 
 
@@ -234,7 +241,18 @@ h6 {
 }
 
 #works img {
-    padding: 50px;
+    padding: 50px 0px;
+}
+
+@media(max-width:512px) {
+    #works img {
+        padding: 50px 0px;
+        width: 100%;
+    } 
+
+    #works .works-link  {
+        width: 10% !important;
+    }   
 }
 
 #experience {
@@ -296,71 +314,131 @@ h6 {
     background-color: #10212e;
     color: #707a82;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
+    height: 900px;
+}
+
+#architecture svg {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: #10212e;
+  margin-top: 574px;
 }
 
 #architecture h3{
     text-transform: uppercase;
-    padding: 50px 0px;
+    padding-bottom: 30px;
 }
 
 #architecture .card {
     background-color: #fff;
-    border-radius: 
+    border-radius: 5px; 
+    font-size: 18px;
+    margin-top: -800px;
+    margin-bottom: 50px;
 }
 
-.contact {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/contact-bg.jpg) no-repeat center center;
-    background-size: cover;
+#architecture .card h1 {
+    color: #1e3142;
+    padding-top: 50px;
 }
 
-.contact h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
+#architecture .card p{
+    padding: 20px;
 }
 
-.contact ul {
-    margin-bottom: 0;
+#architecture .card > img {
+    width: 100%;    
 }
 
-.contact-social-buttons {
-    float: right;
-    margin-top: 0;
+#architecture .card .button-list {
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-@media(max-width:1199px) {
-    ul.contact-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
+#architecture .card .button-list a {
+    margin: 10px;
+    background-color: #3aaf63;
+    color: #f6f6f6;
 }
 
-@media(max-width:767px) {
-    .contact h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
+#architecture .card .button-list .link-button {
+    margin: 0px;
+    background-color: #f6f6f6;
+    color: rgba(45, 106, 170);
+}
 
-    ul.contact-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
+#community {
+    padding-top: 50px;
+    text-align: center;
+}
 
-    ul.contact-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+#community p {
+    padding: 20px;
+    color: #707a82;
+    font-size: 18px;
+}
+
+#community .testimonal img   {
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#community .forum {
+    margin-right: 10px;
+    background-color: #3aaf63;
+    color: #f6f6f6;
+}
+
+#community .slack {
+    border: 1px solid #eee;    
 }
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #192b3a;
+    color: #707a82;
+    font-size: 18px;
 }
 
-p.copyright {
-    margin: 15px 0 0;
+footer ul {
+    list-style-type: none;
+}
+
+footer .list-header {
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+footer .list-item {
+    line-height: 30px;
+    color: #c5c4c1;
+}
+
+footer .list-item input {
+    width: 99%;
+    padding: 10px 15px 15px;
+    background-color: #10212e;
+    border: 1px solid #707a82;
+    display: inline-block;
+}
+
+footer .list-item .link-button {
+    margin: 0px;
+    margin-left: -170px;
+    display: inline-block;
+    padding: 8px;
+}
+
+footer .icon-list {
+    color: #707a82;
+    padding-top: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+footer .copyright {
+    padding-top: 20px;
 }
