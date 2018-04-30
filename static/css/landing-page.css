@@ -1,0 +1,366 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-nav > li >a {
+    text-transform: uppercase;
+    color: rgb( 140, 149, 156);
+    font-size: 18px;
+}
+
+.navbar-nav > li >a:hover {
+    background: rgb( 25, 43, 58);
+}
+
+.navbar-nav > li >a:focus {
+    background: rgb( 25, 43, 58);
+}
+
+.navbar-nav > li > .open-console {
+    margin-left: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 2px;
+    text-align: left;
+    background: rgb(140, 149, 156);
+    color: #ffffff;
+}
+
+.navbar-toggle {
+    background: #f8f8f8;
+}
+
+.navbar-brand {
+    color: rgba(39, 174, 96, 1);
+    font-size: 22px;
+}
+
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: rgb( 25, 43, 58);
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: none;
+    font-size: 3.5em;
+}
+
+.intro-message > h3 {
+    color: #aaa;
+    text-shadow: none;
+    line-height: 40px;
+}
+
+.intro-message > ul {
+    padding-top: 20px;
+}
+
+.intro-message > ul > li > .quick-start {
+    color: #ffffff;
+    border-color: rgba(39, 174, 96, 1); 
+    text-transform: uppercase; 
+    background: rgba(39, 174, 96, 1);
+}
+
+.intro-message > ul > li > .why-prisma {
+    color: rgba(45, 106, 170);
+    border-color: rgb( 25, 43, 58);
+    text-transform: uppercase; 
+    background: rgb( 25, 43, 58);
+    padding-left: 5px;
+}
+
+.intro-message > ul > li > .why-prisma > img {
+    margin-left: 10px;
+    width: 15px;
+    color: rgb( 25, 43, 58);
+}
+
+.intro-message > ul > li > .why-prisma:hover > img {
+    margin-left: 10px;
+    transition: 0.5s;
+    transform: translateX(5px);
+    width: 15px;
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#services {
+    background: #fbfcfc;
+}
+
+#services > .service-header > img {
+    width: 100%; 
+    margin-top: -100px;   
+}
+
+.link-button {
+    margin-top: 10px;
+    color: rgba(45, 106, 170);
+    text-transform: uppercase;
+    background-color: #fbfcfc;
+    border: 0px;
+    margin-bottom: 100px;
+}
+
+.link-button:hover {
+    background-color: #fbfcfc;
+    color: rgba(45, 106, 170);
+}
+
+.link-button img {
+    margin-left: 10px;
+    width: 15px;
+    color: rgb( 25, 43, 58);
+}
+
+.link-button:hover > img {
+    margin-left: 10px;
+    transition: 0.5s;
+    transform: translateX(5px);
+    width: 15px;
+}
+
+.tooling-service {
+    text-align: center;
+    font-size: 18px;
+    color: #9594a1;
+}
+
+.tooling-service h3 {
+    color: #3aaf63;
+}
+
+.api-service {
+    text-align: center;
+    margin-top: -150px;
+    font-size: 18px;
+    color: #9594a1;
+}
+
+.api-service h3 {
+    color: #c360a4;
+}
+
+.runs-service {
+    text-align: center;
+    font-size: 18px;
+    color: #9594a1;
+}
+
+.runs-service h3 {
+    color: #ee605f;
+}
+
+#works {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #f7f8f8;
+    font-size: 20px;
+    color: #9594a1;
+}
+
+#works h1 {
+    padding-bottom: 20px;
+}
+
+#works img {
+    padding: 50px;
+}
+
+#experience {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #1e3142;
+    font-size: 20px;
+    color: #9594a1;
+}
+
+#experience h1 {
+    color: #ffffff;
+}
+
+#experience p {
+    padding: 20px 0;
+}
+
+#experience .nav-pills > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+    text-transform: uppercase;
+}
+
+#experience .nav-pills > li > a {
+    color: #76828c;
+}
+
+#experience .nav-pills > li > a:hover {
+    border-radius: 30px;
+}
+
+#experience .nav-pills > li.active > a{
+    background-color: #ffffff;
+    color: #1e3142;
+    border-radius: 30px;
+}
+
+#experience .nav-pills > li.active > a:focus{
+    background-color: #ffffff;
+    color: #1e3142;
+    border-radius: 30px;
+}
+
+#experience .nav-pills {
+    text-align:center;
+}
+
+#experience .tab-content {
+    padding: 50px;
+}
+
+#experience video {
+    width: 100%;
+}
+
+#architecture {
+    background-color: #10212e;
+    color: #707a82;
+    text-align: center;
+    padding: 50px;
+}
+
+#architecture h3{
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+
+#architecture .card {
+    background-color: #fff;
+    border-radius: 
+}
+
+.contact {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/contact-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.contact h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.contact ul {
+    margin-bottom: 0;
+}
+
+.contact-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.contact-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.contact-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.contact-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
