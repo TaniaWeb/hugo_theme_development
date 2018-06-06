@@ -1,0 +1,24 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: Description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: Keywords
+  label: Keywords
+  type: list
+  hidden: false
+  default: []
+- name: Tags
+  label: Tags
+  type: list
+  hidden: false
+  default: []
+- name: Categories
+  label: Categories
+  type: list
+  hidden: false
+  default: []
